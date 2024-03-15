@@ -46,34 +46,37 @@
 					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
 						aria-label="Slide 3"></button>
 				</div>
+
 				<div class="carousel-inner">
+
 					<div class="carousel-item active">
-						<img srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-650.webp 650w,
-									./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp 1920w"
-							sizes="(max-width: 650px) 650px,
-								  	1920px"
-							src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" class="d-block w-100"
-							alt="slide1 - Photo d'un homme de dos"/>
+						<picture>
+							<source media="(max-width: 650px)"
+								srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-650.webp">
+							<img srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp"
+								class="d-block w-100" alt="slide1 - Photo d'un homme de dos">
+						</picture>
 					</div>
+
 					<div class="carousel-item">
-						<img srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-650.webp 650w,
-									./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp 1920w"
-							sizes="(max-width: 650px) 650px,
-									1920px"
-							src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" class="d-block w-100"
-							alt="slide2 - Photo d'un concert" 
-							loading="lazy"/>
+						<picture>
+							<source media="(max-width: 650px)"
+								srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-650.webp">
+							<img srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" 
+								class="d-block w-100" alt="slide2 - Photo d'un concert" loading="lazy">
+						</picture>
 					</div>
+
 					<div class="carousel-item">
-						<img srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-650.webp 650w,
-									./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp 1920w"
-							sizes="(max-width: 650px) 650px,
-									1920px"
-							src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" class="d-block w-100"
-							alt="slide3 - Photo d'un mariage" 
-							loading="lazy"/>
+						<picture>
+							<source media="(max-width: 650px)"
+								srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-650.webp">
+							<img srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" 
+								class="d-block w-100" alt="slide3 - Photo d'un mariage" loading="lazy">
+						</picture>
 					</div>
 				</div>
+
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
 					data-bs-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -89,13 +92,14 @@
 
 		<section id="about">
 			<div class="picture left">
-				<img srcset="./assets/images/nina-280.webp 280w, 
-							./assets/images/nina.webp 560w"
-					sizes="(max-width: 650px) 280px,
-				  		560px"
-					src="./assets/images/nina.webp" 
-					alt="Portrait de Nina Carducci" />
+
+				<picture>
+					<source media="(max-width: 650px)"
+							srcset="./assets/images/nina-280.webp">
+					<img srcset="./assets/images/nina.webp" alt="Portrait de Nina Carducci">
+				</picture>
 			</div>
+
 			<div id="about-me">
 				<h2 class="about-me__title">A propos de moi</h2>
 				<p class="about-me__introduction">
@@ -241,12 +245,11 @@
 					</form>
 				</div>
 				<div class="picture right">
-					<img srcset="./assets/images/camera-280.webp 280w, 
-								./assets/images/camera.webp 560w"
-						sizes="(max-width: 650px) 280px,
-				  			560px"
-						src="./assets/images/camera.webp"
-						alt="Photo d'un appareil photo" />
+					<picture>
+						<source media="(max-width: 650px)"
+								srcset="./assets/images/camera-280.webp">
+						<img srcset="./assets/images/camera.webp" alt="Photo d'un appareil photo">
+					</picture>
 				</div>
 			</div>
 		</section>
